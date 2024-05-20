@@ -1,0 +1,27 @@
+@import 'normalize';
+@import 'color';
+
+:root {
+  font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 32px;
+  font-weight: 400;
+  background-color: var(--backgroundColor);
+}
+
+.container { 
+  padding: 30px 40px;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1580px;
+  margin: 0 auto;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+

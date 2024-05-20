@@ -1,0 +1,40 @@
+.line {
+  height: 1px;
+  background: #2196f3;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.documentsWrap {
+  background-color: #fff;
+  border-radius: 4px;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  img {
+    cursor: pointer;
+  }
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.documentList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  gap: 30px;
+  padding: 15px 0;
+}

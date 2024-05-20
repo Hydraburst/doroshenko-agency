@@ -1,0 +1,48 @@
+@import '../../scss//color';
+
+.burgerMenu {
+  width: 18px;
+  display: flex;
+  gap: 4.5px;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  .burgerLine {
+    height: 1.5px;
+    background: black;
+  }
+}
+
+.profileTitle {
+  color: var(--profileFontColor);
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+.contentLeft {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.contentRight {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.contentUtils {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.headerWrap { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px 15px 20px;
+  background-color: var(--whiteColor);
+  border-radius: 4px;
+}
